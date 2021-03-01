@@ -1,0 +1,89 @@
+@font-face {
+	font-family:'Gilroy-ExtraBold';
+	src: url('fonts/Gilroy-ExtraBold.otf');
+	font-weight: bold;
+	font-style: bold;
+}
+@font-face {
+	font-family:'Gilroy-Light';
+	src: url('fonts/Gilroy-Light.otf');
+	font-weight: lighter;
+	font-style: lighter;
+}
+@font-face {
+	font-family:'Montserrat-Regular';
+	src: url('fonts/Montserrat-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family:'Montserrat-Light';
+	src: url('fonts/Montserrat-Light.ttf');
+	font-weight: lighter;
+	font-style: lighter;
+}
+header{
+    background: none;
+}
+header span{
+    font-family: Montserrat-Regular,sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    font-weight: bold;
+    line-height: 1.7em;
+    color: #303030;
+}
+.navbar-nav{
+    flex-direction: row-reverse!important;
+}
+header nav a{
+    color: #05AFF2;
+    font-family: Montserrat-Regular,sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    font-weight: bold;
+    line-height: 1.7em;
+    text-decoration: none;
+    margin: 0 15px;
+}
+header nav a:hover{
+    color: #EEF26B;
+}
+main{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+footer{
+    background-color: #EEF26B;
+    /* background-color: #f3c130; */
+}
+footer div span{
+    font-family: Gilroy-Light, sans-serif;
+    font-size: 16px;
+}
+footer div a img{
+    width: 25px;
+}
+@media only screen and (max-width: 576px) {
+.navbar{
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+header nav a{
+    width: 100%;
+}    
+main{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.col-12{
+    padding: 0;
+    margin: 0;
+}
+main{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+}
